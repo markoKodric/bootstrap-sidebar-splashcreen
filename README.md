@@ -1,3 +1,3 @@
 # Bootstrap template
 
-# Including sidebar and animated splashscreen
+Including sidebar and animated splashscreen
