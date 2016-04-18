@@ -1,3 +1,3 @@
-# Website template - Sidebar, including animated splashscreen
+# Website template - Responsive, sidebar, including animated splashscreen
 
 Framework: Bootstrap
