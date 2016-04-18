@@ -1,0 +1,173 @@
+body{
+    background-color: #e0eff9;
+}
+
+#mainPage{
+    display: none;
+}
+
+#overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:1001;
+}
+
+#overlay-content h1 {
+    font-size: 100px;
+    font-weight: bolder;
+    margin-top: 20%
+}
+
+#overlay-content h2 {
+    font-size: 30px;
+    color: gray;
+}
+
+#overlay-content p i {
+    font-size: 30px;
+    background: -webkit-linear-gradient(top, #33CCFF, lightgray);
+    background: linear-gradient(top, #33CCFF, lightgray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#overlay-content{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index:1002;
+}
+
+#myProgress {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background-color: lightgray;
+}
+#myBar {
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: #33CCFF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(right top, #33CCFF, lightgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom left, #33CCFF, lightgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom left, #33CCFF, lightgray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom left, #33CCFF, lightgray); /* Standard syntax */
+}
+
+.boxContent {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+    -moz-box-shadow: 5px 5px 20px gray;
+    -webkit-box-shadow: 5px 5px 20px gray;
+    box-shadow: 5px 5px 20px gray;
+    border-left: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
+}
+
+.glavniPrikaz{
+    padding: 50px;
+}
+
+.contentHeading {
+    background: #6666FF; /* For browsers that do not support gradients */
+    padding: 30px;
+    color: white;
+    margin-bottom: 0;
+    -moz-box-shadow: 5px 5px 20px gray;
+    -webkit-box-shadow: 5px 5px 20px gray;
+    box-shadow: 5px 5px 20px gray;
+}
+
+.contentHeading h1{
+    font-size: 36px;
+}
+
+.navMenu {
+    background: #3399FF;
+}
+
+.navMenu .btnShowMenu {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.navMenu .navTitleBar .btnShowMenu .menuLine {
+    background-color: white;
+    transform: scale(1.2);
+}
+
+.navMenu .navTitleBar .brandName {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.navMenu .dropdownMenu li{
+    background-color: white;
+    border-top: solid 1px lightgray;
+    border-bottom: solid 1px lightgray;
+}
+
+.navMenu .dropdownMenu li:hover{
+    -webkit-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+    background-color: #2aabd2;
+    color: white;
+}
+
+.navMenu .dropdownMenu li a{
+    color: #888888;
+}
+
+.navMenu .dropdownMenu li a:hover{
+    color: white;
+}
+
+.navTitleBar {
+    height: 70px;
+}
+
+.boxItem {
+    padding-top: 20px;
+}
+
+.footer{
+    position: fixed;
+    height: 40px;
+    bottom: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-top: solid 1px lightgray;
+}
+
+.footer a i{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.footer a:hover{
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    color: #707070 ;
+    text-decoration: none;
+}
+
+.footer a:visited{
+    color: #707070 ;
+    text-decoration: none;
+}
